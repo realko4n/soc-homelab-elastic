@@ -9,7 +9,7 @@
 | Роль в лабе | ОС / Инструменты | IP-адрес | Ресурсы | Назначение |
 | :--- | :--- | :--- | :--- | :--- |
 | **SIEM Server** | Ubuntu Server 24.04.1 LTS<br>Elasticsearch 9.5.7 + Kibana 9.5.7 | `192.168.1.206` | 4 vCPU / 8 GB RAM | Сбор, индексация, корреляция и визуализация логов |
-| **Victim / Endpoint** | Windows 10 Pro (22H2)<br>Sysmon + Winlogbeat | `TBD` | 2 vCPU / 4 GB RAM | Целевая рабочая станция, генерация телеметрии хоста |
+| **Victim / Endpoint** | Windows 10 Pro (22H2)<br>Sysmon + Winlogbeat | `192.168.1.207` | 2 vCPU / 4 GB RAM | Целевая рабочая станция, генерация телеметрии хоста |
 | **Attacker (Red Team)** | Kali Linux 2026.1 | `TBD` | 2 vCPU / 4 GB RAM | Проведение атак (сканирование, брутфорс, эксплуатация) |
 
 ## 📂 Структура репозитория
