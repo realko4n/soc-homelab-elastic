@@ -2,7 +2,7 @@
 
 ## 1. Описание сценария и MITRE ATT&CK
 * **Тактика:** Credential Access (TA0006)
-* **Техника:** Brute Force: Password Guessing ([T1110.001](https://mitre.org))
+* **Техника:** Brute Force: Password Guessing ([T1110.001](https://attack.mitre.org/techniques/T1110/001/))
 * **Атакующий (Red Team):** Kali Linux (`192.168.1.208`), утилита `netexec`
 * **Жертва (Endpoint):** Windows 10 Pro (`192.168.1.207`, хост `DESKTOP-6OV69S7`), служба SMB (порт `445/tcp`)
 
