@@ -15,7 +15,7 @@
 ## 📂 Структура репозитория
 
 * [`01-infrastructure-setup/`](./01-infrastructure-setup/README.md) — Развертывание виртуальных машин, настройка сети, установка и конфигурация Elasticsearch и Kibana.
-* [`02-endpoint-telemetry/`](./02-endpoint-telemetry/README.md) — *(В процессе)* Установка Sysmon с кастомной конфигурацией и настройка отправки логов через Winlogbeat.
+* [`02-endpoint-telemetry/`](./02-endpoint-telemetry/README.md) — Установка Sysmon с кастомной конфигурацией и настройка отправки логов через Winlogbeat.
 * [`03-attack-simulations/`](./03-attack-simulations/README.md) — *(В процессе)* Практические сценарии атак, их разбор по MITRE ATT&CK, KQL-запросы для поиска и рекомендации по защите.
 
 ## 🎯 Отрабатываемые навыки
