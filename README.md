@@ -10,13 +10,13 @@
 | :--- | :--- | :--- | :--- | :--- |
 | **SIEM Server** | Ubuntu Server 24.04.1 LTS<br>Elasticsearch 9.5.7 + Kibana 9.5.7 | `192.168.1.206` | 4 vCPU / 8 GB RAM | Сбор, индексация, корреляция и визуализация логов |
 | **Victim / Endpoint** | Windows 10 Pro (22H2)<br>Sysmon + Winlogbeat | `192.168.1.207` | 2 vCPU / 4 GB RAM | Целевая рабочая станция, генерация телеметрии хоста |
-| **Attacker (Red Team)** | Kali Linux 2026.1 | `TBD` | 2 vCPU / 4 GB RAM | Проведение атак (сканирование, брутфорс, эксплуатация) |
+| **Attacker (Red Team)** | Kali Linux 2026.1 | `192.168.1.208` | 2 vCPU / 4 GB RAM | Проведение атак (сканирование, брутфорс, эксплуатация) |
 
 ## 📂 Структура репозитория
 
 * [`01-infrastructure-setup/`](./01-infrastructure-setup/README.md) — Развертывание виртуальных машин, настройка сети, установка и конфигурация Elasticsearch и Kibana.
 * [`02-endpoint-telemetry/`](./02-endpoint-telemetry/README.md) — Установка Sysmon с кастомной конфигурацией и настройка отправки логов через Winlogbeat.
-* [`03-attack-simulations/`](./03-attack-simulations/README.md) — *(В процессе)* Практические сценарии атак, их разбор по MITRE ATT&CK, KQL-запросы для поиска и рекомендации по защите.
+* [`03-attack-simulations/`](./03-attack-simulations/README.md) — Практические сценарии атак, их разбор по MITRE ATT&CK, KQL-запросы для поиска и рекомендации по защите.
 
 ## 🎯 Отрабатываемые навыки
 * Развертывание и администрирование **Elastic Stack (ELK)** в Linux.
