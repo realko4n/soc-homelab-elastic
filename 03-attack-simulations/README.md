@@ -8,7 +8,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **01** | [Подбор паролей по протоколу SMB (Brute Force)](./01-smb-brute-force.md) | Credential Access | [T1110.001](https://attack.mitre.org/techniques/T1110/001/) | Windows Security (`4625`, `4740`) | ✅ Завершено |
 | **02** | [Скрытое выполнение PowerShell-скрипта (Fileless Execution)](./02-powershell-download-cradle.md) | Execution | [T1059.001](https://attack.mitre.org/techniques/T1059/001) | Sysmon (`1`, `3`, `22`), PowerShell (`4104`) | ✅ Завершено |
-| **03** | *Закрепление в системе через реестр (Registry Run Keys)* | Persistence | [T1547.001](https://mitre.org) | Sysmon (`1`, `12`, `13`) | 🔄 В планах |
+| **03** | [Закрепление в системе через реестр (Registry Run Keys)](./03-registry-persistence.md) | Persistence | [T1547.001](https://attack.mitre.org/techniques/T1547/001) | Sysmon (`1`, `13`) | ✅ Завершено |
 
 ## 🔍 Методология разбора каждого инцидента
 Каждый врайтап структурирован по стандарту реагирования на инциденты (IR):
